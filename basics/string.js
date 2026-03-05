@@ -10,5 +10,10 @@ const gameName = new String('siddhraj pandit')
 //console.log(gameName [7]);
 //console.log(gameName.length);
 //console.log(gameName.toUpperCase());
-console.log(gameName.charAt(3));
+//console.log(gameName.charAt(3));
 
+const newString = gameName.substring(0,6)
+console.log(newString);
+
+const anotherNewString = gameName.slice(5,8)
+console.log(anotherNewString);
